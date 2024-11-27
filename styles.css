@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #111;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #043050;
+    color: white;
+}
+
+.logo-img {
+    height: 55px;
+    border-radius: 55%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 1rem;
+    background: #84959c;
+}
+
+.hero-image {
+    max-width: 28%;
+    margin: 2rem auto;
+    border-radius: 50px;
+}
+
+.about-section {
+    padding: 2rem;
+    background: #84959c;
+    text-align: center;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-img {
+    width: 15%;
+    border-radius: 30px;
+}
+
+.projects-section, .contact-section {
+    padding: 2rem;
+    background: #84959c;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #043253;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.dark-theme .header {
+    background-color: #333;
+}
